@@ -1,0 +1,28 @@
+{
+  "books": [
+    {
+      "id": 2,
+      "author": "Lewis Carroll",
+      "name": "Alice's Adventures in Wonderland",
+      "cost": 340
+    },
+    {
+      "id": 3,
+      "author": "Sander Yazıcıoğlu",
+      "name": "Sander Book",
+      "cost": 120
+    },
+    {
+      "id": 4,
+      "author": "Sander",
+      "name": "Example Book",
+      "cost": 150
+    },
+    {
+      "id": 5,
+      "author": "Sander",
+      "name": "Dante",
+      "cost": 300
+    }
+  ]
+}

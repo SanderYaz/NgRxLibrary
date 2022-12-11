@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-lg bg-dark">
+  <span class="container-fluid">
+    <a class="navbar-brand text-white" href="#">Sander Books Store</a>
+    <a routerLink="/cart" class="button fancy-button"> => Checkout</a>
+    <span *ngIf="isUserLoggedIn; else isLogOut">
+    <a class="nav-link" routerLink="/logout">Logout</a>
+  </span>
+
+  <ng-template #isLogOut>
+    <a class="nav-link" routerLink="/login">Admin Login</a>
+  </ng-template>
+  </span>
+</nav>
+<router-outlet></router-outlet>
